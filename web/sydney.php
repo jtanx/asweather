@@ -1,4 +1,6 @@
 <?
+error_reporting(E_ALL);
+ini_set('display_errors', 'on');
 
 //http://stackoverflow.com/questions/12248997/get-data-as-string-from-ftp
 function ftp_get_string($ftp, $filename) {
